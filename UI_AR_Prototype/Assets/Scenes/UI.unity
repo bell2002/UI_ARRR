@@ -9053,7 +9053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1339194945
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14018,6 +14018,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 295460021}
     m_Modifications:
+    - target: {fileID: 1629168532972645253, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629168532972645253, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629168532972645253, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629168532972645253, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -160
+      objectReference: {fileID: 0}
     - target: {fileID: 3927251081808477169, guid: 42389c827edc144428ba7d560d75cf0c,
         type: 3}
       propertyPath: m_Pivot.x
@@ -14118,10 +14138,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4538902147839416283, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538902147839416283, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538902147839416283, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 160
+      objectReference: {fileID: 0}
     - target: {fileID: 6046422400484288067, guid: 42389c827edc144428ba7d560d75cf0c,
         type: 3}
       propertyPath: m_Name
       value: MirrorUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046422400484288067, guid: 42389c827edc144428ba7d560d75cf0c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
